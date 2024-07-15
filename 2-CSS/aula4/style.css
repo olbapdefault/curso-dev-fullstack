@@ -1,0 +1,19 @@
+body {
+    background: #e0e0e0
+}
+
+p {
+    color: #2b2b2b;
+}
+
+.foto-principal {
+
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ffffff; /* expessura/tipo/cor */ /* shorthand */
+    /* border-radius: 50px; */
+    border-radius: 50% 10% 20% 90%;
+    /*border-width: 5px;
+    border-style: solid;
+    border-color: black;*/
+}

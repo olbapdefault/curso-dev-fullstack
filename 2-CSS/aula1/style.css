@@ -1,0 +1,31 @@
+/**
+    Uma regra de CSS é escrita por meio de: 
+    -seletor
+    -propriedade
+    -valor
+**/
+body {
+    background: red;
+}
+
+h3 {
+    color: green;
+}
+/**
+    é possivel estilizar com tag: a propriedade sera aplicada em todas as tags semelhantes
+**/
+
+.foto-principal {
+    width: 500px;
+}
+/**
+    é possivel ultizar tags: a propeidade sera aplicada somente em classes semelhantes
+    para criar uma regra de estilos para uma classe basta adicionar ponto(.) + classe e escreve as propriedades
+**/
+
+#titulo-principal {
+    color: yellow;
+}
+/**
+    para estilizar um id é nesessario colocar jogo da velha(#) + id
+**/

@@ -1,0 +1,12 @@
+body {
+    background: #e0e0e0
+}
+/**
+    sistema de cores: 
+    hex - (FFFFFF) letra e numero 2 casas para casa cor
+    rgb - (0, 0, 0) somente numero< somente este é capas de usa alpha e mexer na opacidade
+**/
+
+p {
+    color: #2b2b2b;
+}

@@ -1,0 +1,29 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    /*background-position: 100% 10%*/
+    background-position: right center; 
+    background-size: cover; /*esticar a imagem para cobrir a pagina*/
+    background-attachment: fixed;
+    /*
+        background-image exporta uma imagem para o background
+        por padrão a imagem ultiliza o recurso repeat pra preencher toda a pagina
+        propriedade backgroud-position para escolher a prosição(primeiro valor = distancia do lado esquerdo, segundo valor é a distancia do topo)
+    */
+
+}
+
+/**
+    sistema de cores: 
+    hex - (FFFFFF) letra e numero 2 casas para casa cor
+    rgb - (0, 0, 0) somente numero< somente este é capas de usa alpha e mexer na opacidade
+**/
+
+p {
+    color: #2b2b2b;
+}
+
+.foto-principal {
+    width: 100px;
+}
+
