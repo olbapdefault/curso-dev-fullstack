@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100%;
+}
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 20px black;
+    background-image: url(img/header.jpg); 
+    background-position: center;
+    background-size: cover;
+    display: block;
+    font-weight: 700;
+    filter: saturate(2);
+}
+
+.header span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 150px;  
+    letter-spacing: -1;
+
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.navbar {
+    width: 30%;
+    padding: 0 30px 30px 30px;
+}
+
+.navbar ul li {
+    background-color: #4848ff;
+    margin: 0 10px 10px 10px;
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px 0;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    width: 70%;
+    background-color: #d8d8d8;
+    margin-right: 20px;
+    padding: 30px;
+    border-radius: 50px 5px 0 0;
+    height: 60vh;
+    min-height: 100%;
+    float: left;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background: rgb(145, 145, 145);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 30px; 
+}
+
+.footer a {
+    text-decoration: none;
+}
